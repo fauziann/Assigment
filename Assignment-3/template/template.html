@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="refresh" content="15" />
+    <title>Laporan Status Air dan Angin</title>
+    <style>
+      h1 {
+        margin: 70px 10px 100px 10px;
+        text-align: center;
+        color: whitesmoke;
+      }
+      h2 {
+        margin: auto;
+        text-align: center;
+        color: white;
+      }
+      body {
+        background-image: url("https://a-static.besthdwallpaper.com/walton-lighthouse-wallpaper-1600x900-55333_47.jpg"); 
+      } 
+      p {
+        margin-left: 100px;
+        margin-top: 100px;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Status Air dan Angin Saat ini</h1>
+    <h2>Ketinggian Air: {{.water}} m</h2>
+    <h2>Status: {{.statusWater}}</h2>
+    <br />
+    <h2>Kecepatan Angin: {{.wind}} m/s</h2>
+    <h2>Status: {{.statusWind}}</h2>
+    <p>CREATED BY FAUZIANN</p>
+  </body>
+</html>
